@@ -16,6 +16,4 @@ fi
 . <(kubebuilder completion zsh)
 
 # emacs
-alias es='emacs --daemon'
-alias ec='emacsclient --create-frame'
-alias ek='killall emacs'
+alias em='emacsclient -t -a ""'
